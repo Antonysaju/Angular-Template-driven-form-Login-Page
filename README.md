@@ -33,6 +33,10 @@ Date of Birth Input:
 
 The form includes dropdowns for selecting the date, month, and year of birth, ensuring users provide their birthdate in a standardized format.
 
+![Screenshot 2024-10-20 194147](https://github.com/user-attachments/assets/00c1313f-79b9-4ce4-8e51-02214ffbd064)
+
+
+
 ![Screenshot (24)](https://github.com/user-attachments/assets/b706ad52-e65b-432f-ae81-0f6cb33686e9)
 
 

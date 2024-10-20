@@ -1,4 +1,4 @@
-##Angular Template-driven form Login & Sign Up Page
+## Angular Template-driven form Login & Sign Up Page
 This project demonstrates a simple login page built using Angular template-driven forms. It includes input fields for "Email or Mobile" and "Password," both of which are validated. The form ensures that users cannot submit until all the required fields are filled in correctly. For instance, the password must be at least 10 characters long, and both fields are marked as invalid if they are empty or do not meet the criteria.
 
 Features:

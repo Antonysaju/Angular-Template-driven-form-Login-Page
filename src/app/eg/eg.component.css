@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: #d5d4d4c1;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: rgb(0, 110, 255);
+}
+
+.left{
+    float: left;
+    width: 50%;
+    text-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.brand-name{
+    font-size: 70px;
+}
+
+.desc{
+    font-size: 30px;
+}
+
+.registerform{
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    vertical-align: middle;
+    margin: auto;
+    width: 75%;
+}
+
+hr{
+    margin-top: 5px;
+}
+
+.regin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fname, .sname{
+    width: 48%;
+    display: inline;
+}
+
+.fname{
+    margin-right: 10px;
+}
+
+.sname{
+    margin-left: 10px;
+}
+
+select{
+    width: 32%;
+    margin: 3px;
+    height: 30px;
+}
+
+select.is-invalid{
+    border: solid 2px red;
+}
+
+.rad-desc{
+    border: solid 2px;
+    width: 32%;
+    padding: 5px;
+    margin: 3px;
+}
+
+.rad-desc.is-invalid{
+    border:   solid 2px red;
+}
+
+.rad{
+    float: right;
+}
+
+.left-align{
+    float: left;
+}
+
+.right-align{
+    float:inline-end
+}
+
+.desc2{
+    font-size: 12px;
+    color: rgba(83, 79, 79, 0.645);
+}
+
+.signup{
+    background-color: rgb(11, 184, 11);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.form{
+    background-color: white;
+    display: flexbox;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+input::placeholder{
+    color: grey;
+    padding: 10px;
+    font-style: italic;
+}
+
+
+input{
+    margin-top: 10px;
+}
+
+.btn{
+    background-color:  rgb(0, 110, 255);
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.register{
+    background-color: rgb(11, 184, 11);
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.spl{
+    display: flexbox;
+    padding: 10px;
+    justify-content: center;
+}
+
+.err-message{
+    color: red;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
